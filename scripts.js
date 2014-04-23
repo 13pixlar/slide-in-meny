@@ -24,7 +24,7 @@ jQuery(document).ready(function($) {
 	// Toggla menyn och förhinda scrolling när den är öppen
 	$('.mobile-menu-btn').click(function(e) {
 		
-		// Bestämm skärmens bredd
+		// Bestämm skärmens bredd när menyn öppnas
 		getWidth();
 
 		$('.mobile-menu').toggleClass('open');
